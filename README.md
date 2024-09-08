@@ -2,14 +2,14 @@ XAI-Driven EmissionPredictor
 
 A machine learning project for predicting vehicle CO2 emissions with explainable AI (XAI) integration for smart city solutions.
 
-Features
+# Features
 
 CO2 Emission Prediction: Forecast vehicle emissions based on various factors like engine size, fuel consumption, etc.
 Explainable AI (XAI): Uses LIME to provide interpretable predictions for policymakers.
 Data Imbalance Handling: Incorporates SMOTE to balance the dataset.
 Multiple Models: Trained using Decision Tree, Random Forest, and Gradient Boosting models.
 
-Installation
+# Installation
 # Clone the repository
 git clone https://github.com/deekshaa4/XAI-Driven-EmissionModel.git
 
@@ -27,7 +27,7 @@ venv\Scripts\activate
 # Install the required dependencies
 pip install -r requirements.txt
 
-Usage
+# Usage
 # Run the main script to train and test the model
 python main.py
 
@@ -38,7 +38,7 @@ Results will be displayed in the console or as visual plots.
 # Evaluate Model Performance
 You can check the performance of the model using the R² score and MAPE.
 
-Technologies
+# Technologies
 
 Python 3.8+
 Scikit-learn: For machine learning models.
